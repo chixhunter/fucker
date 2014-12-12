@@ -1,0 +1,48 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>~~~~~fucker HUNTER~~~~~~</title>
+
+
+<script language="javascript">
+ var repeat=1 //enter 0 to not repeat scrolling after 1 run, othersise, enter 1
+var title=document.title
+var leng=title.length
+var start=1
+function titlemove() {
+  titl=title.substring(start, leng) + title.substring(0, start)
+  document.title=titl
+  start++
+  if (start==leng+1) {
+    start=0
+    if (repeat==0)
+    return
+  }
+  setTimeout("titlemove()",140)
+}
+if (document.title)
+titlemove()</script>
+
+<body>
+
+<div>
+
+style="position:absolute;top:1;left:1;">
+<img style="width:1260px;height:900px" src="hunter home page.png">
+
+</div>
+
+<div
+
+style="position:absolute;top:620;left:230;width:810">
+<marquee onmouseover="this.stop()" onmouseout="this.start()" behavior="alternate" direction="right" scrollamount="20">
+<a href="pen.jpg"> 
+<img style="width:150px;height:170px;border:dotted" src="pen.jpg">
+<a href="sasuke.jpg"> 
+<img style="width:150px;height:170px;border:dotted" src="sasuke.jpg">
+<a href="spider.jpg"> 
+<img style="width:150px;height:170px;border:dotted" src="spider.jpg">
+
+
+
+</marquee>
+
+</div>
